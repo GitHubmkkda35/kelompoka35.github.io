@@ -1,0 +1,354 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	width: 960px;
+	background-image:url(bg/6943915-fresh-nature-background.jpg);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.container {
+	width: 100%;
+	height: 930px;
+	background: #FFFFFF;
+	margin-left: 150px;
+	margin-right: 150px;
+	padding: 5px 7px;
+	color: #000000;
+}
+.header {
+	width: 98%;
+	height: 30px;
+	background:#CCCCCC;
+	margin:auto;
+	margin-top: 7px;
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+}
+nav {
+	width: 98%;
+	height: 40px;
+	background:#CCCCCC;
+	margin-left: 10px;
+}
+nav ul li {
+	display:inline-table;
+	position:relative;
+	padding: 6px;
+	margin-top: 5px;
+}
+nav ul li a{
+	text-decoration:none;
+}
+nav ul li a:hover{
+	background-color:#FFFFFF;
+}
+/*BAGIAN KIRI*/
+.leftside{
+	background:#CCCCCC;
+	width: 32.6%;
+	height: 750px;
+	margin-left: 10px;
+	margin-top: 5px;
+}
+kontenleftside .isi_leftside p{
+	font-family: Verdana;
+    line-height: 1.5; 
+    text-align:justify;
+    font-size:12px;
+	margin-left: 5px;
+	margin-right: 5px;
+	line-height: 1.5;
+	margin-top: 5px;
+}
+kontenleftside .isi_leftside  img{
+	height:250px;
+	width:270px;
+	margin-left:21px;
+	margin-right:5px;
+	margin-top:5px;
+}
+
+/*ANIMASI*/
+.slider{
+	background:#CCCCCC;
+	width: 22.5%;
+	height: 280px;
+	margin-left: 328.8px;
+	margin-top: -749.6px;
+	text-align:center;
+	font-size:22px;
+	font-weight:bold;
+	font-family:"Bookman Old Style";
+	color:#000000;
+	position:absolute;
+	overflow:hidden;
+}
+.judul{
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	font-family:"Bookman Old Style";
+	color:#000000;
+}
+
+/*ARTIKEL*/
+article{
+	background:#CCCCCC;
+	width: 31.5%;
+	height: 460px;
+	margin-left: 330px;
+	margin-top: -460px;
+}
+article .konten {
+	font-size:12px;
+	width:auto;
+	height:auto;
+	text-align:justify;
+}
+article img{
+	height:70px;
+	width:70px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+/*BAGIAN KANAN*/
+.rightside{
+	background:#CCCCCC;
+	width: 32.6%;
+	height: 750px;
+	margin-left: 638px;
+	margin-top: -750px;
+}
+.rightside .isi_rightside p{
+	font-family: Verdana;
+    line-height: 1.5; 
+    text-align:justify;
+    font-size:12px;
+}
+.rightside .isi_rightside img{
+	height:75px;
+	width:75px;
+	margin-left:5px;
+	margin-right:5px;
+	margin-top:5px;
+}
+.footer{
+	background:#CCCCCC;
+	width: 98%;
+	height: 60px;
+	margin-left: 10px;
+	margin-top: 8px;
+}
+.footer1{
+	background:#CCCCCC;
+	width: 98%;
+	height: 60px;
+	margin-left: 10px;
+	margin-top: 690px;
+}
+.footer2{
+	background:#CCCCCC;
+	width: 98%;
+	height: 60px;
+	margin-left: 10px;
+	margin-top: 625px;
+}
+.footer3{
+	background:#CCCCCC;
+	width: 98%;
+	height: 60px;
+	margin-left: 10px;
+	margin-top: 625px;
+}
+.footer4{
+	background:#CCCCCC;
+	width: 98%;
+	height: 60px;
+	margin-left: 10px;
+	margin-top: 720px;
+}
+.footer5{
+	background:#CCCCCC;
+	width: 98%;
+	height: 60px;
+	margin-left: 10px;
+	margin-top: 655px;
+}
+.footer .gambar img{
+	height: 30px;
+	width: auto;
+	margin-top: 6px;
+}
+.footer .cr{
+	text-align:center;
+	font-size:10px;
+	font-weight:bold;
+	font-family: Verdana;
+	color:#000000;
+}
+.footer1 .cr{
+	text-align:center;
+	font-size:10px;
+	font-weight:bold;
+	font-family: Verdana;
+	color:#000000;
+}
+.footer1 .gambar img{
+	height: 30px;
+	width: auto;
+	margin-top: 6px;
+}
+.footer2 .cr{
+	text-align:center;
+	font-size:10px;
+	font-weight:bold;
+	font-family: Verdana;
+	color:#000000;
+}
+.footer2 .gambar img{
+	height: 30px;
+	width: auto;
+	margin-top: 6px;
+}
+.footer3 .cr{
+	text-align:center;
+	font-size:10px;
+	font-weight:bold;
+	font-family: Verdana;
+	color:#000000;
+}
+.footer3 .gambar img{
+	height: 30px;
+	width: auto;
+	margin-top: 6px;
+}
+.footer4 .cr{
+	text-align:center;
+	font-size:10px;
+	font-weight:bold;
+	font-family: Verdana;
+	color:#000000;
+}
+.footer4 .gambar img{
+	height: 30px;
+	width: auto;
+	margin-top: 6px;
+}
+.footer5 .cr{
+	text-align:center;
+	font-size:10px;
+	font-weight:bold;
+	font-family: Verdana;
+	color:#000000;
+}
+.footer5 .gambar img{
+	height: 30px;
+	width: auto;
+	margin-top: 6px;
+}
+.slides img{
+	width: 95%;
+	height: auto;
+	margin-left:10px;
+	margin-top: 10px;
+	position:absolute;
+	display: flex;
+	float:left;
+	overflow:hidden;
+	
+	animation-name: slides;
+	animation-direction: left;
+	animation-duration: 5s;
+	animation-timing-function:ease-out;
+	animation-delay: 0.5s;
+	animation-iteration-count:infinite;
+
+	
+	-webkit-name: slides;
+	-webkit-direction: left;
+	-webkit-duration: 5s;
+	-webkit-timing-function:ease-out;
+	-webkit-delay: 0.5s;
+	-webkit-iteration-count:infinite;
+
+	
+	-o-name: slides;
+	-o-direction: left;
+	-o-duration: 5s;
+	-o-timing-function:ease-out;
+	-o-delay: 0.5s;
+	-o-iteration-count:infinite;
+	overflow:hidden;
+
+}
+.slides img:hover{
+	-webkit-animation-play-state:paused;
+	-moz-animation-play-state: paused;
+	-o-animation-play-state: paused;
+	animation:ease-out;
+}
+.slides:after {
+	position:absolute;
+	-webkit-animation: 1s all ease-out;
+	-moz-transition: 1s all ease-out;
+	transition: 1s all ease-out;
+}
+
+
+	@-webkit-keyframes slides {
+		0%{left:0; opacity:0;}
+		20%{left: 0; opacity:1;}
+		25%{left: -10%; opacity:1;}
+		45%{left: -30%; opacity:1;}
+		50%{left: -50%; opacity:0;}
+		70%{left: -50%; opacity:0;}
+		75%{left: -70%; opacity:0;}
+		95%{left: -90%; opacity:0;}
+		100%{left: -100%; opacity:0;}
+	}
+
+/*ISI*/
+isi .isi {
+	background:#CCCCCC;
+	font-family: Verdana;
+    line-height: 2; 
+    text-align:justify;
+    width: 97.8%;
+    height: auto;
+    margin: 5px 5px 5px 10px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    float: left;
+}
+isi .isi p {
+    margin-top: 0;
+	margin-right: 10px;
+}
+isi .isi ol{
+    font-family: Verdana;
+    line-height: 2; 
+}
+isi .isi .judul {
+    font-size: xx-large;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+isi .isi img {
+	height: 250px;
+	width: 250px;
+    float: left;
+    margin: 12px 10px 10px 15px;
+}
+
+nav .menu img{
+	width: 150px;
+	height:auto;
+	left: 950px;
+	top: 75px;
+	position: absolute;
+}
